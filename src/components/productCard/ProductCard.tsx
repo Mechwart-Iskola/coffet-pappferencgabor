@@ -13,7 +13,7 @@ const ProductCard = (cardData: ProductType) => {
             <div className="products__data">
                 <h3 className='products__name'>{cardData.name}</h3>
                 <h3 className='products__price'>${cardData.price}</h3>
-                <button className='products_button'></button>
+                <button className='products__button'><img src="/img/bag.png" alt="" /></button>
             </div>
         </div>
     )
